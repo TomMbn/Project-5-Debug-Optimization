@@ -84,6 +84,7 @@ body {
 	font-weight: 800;
 	font-style: italic;
 	width: 60%;
+	font-size: 1rem;
 }
 #about-me p {
 	width: 80%;
@@ -96,12 +97,13 @@ body {
 .title{
 	text-align: center;
 	padding-block: 2em;
+	font-size: calc(1.3rem + 0.6vw);
 }
 .gallery .nav {
 	justify-content: center;
 }
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
-	color: #fff;
+	color: #000;
 	background-color: #BEB45A;
 	border-radius:0 ;
 }
@@ -147,6 +149,7 @@ body {
 	font-family: Spectral;
 	font-style: italic;
 	font-weight: 300;
+	font-size: calc(1.375rem + 1.5vw);
 
 }
 .quote__author {
@@ -189,6 +192,10 @@ body {
 	justify-content: space-between;
 	z-index: 1;
 }
+
+.request {
+	font-size: calc(1.3rem + 0.6vw);
+  }
 
 #contact {
 	margin: auto;
